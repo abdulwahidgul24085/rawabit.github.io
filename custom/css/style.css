@@ -8,3 +8,11 @@
 .scnd-two {
   color: #ffa800;
 }
+
+.title-main {
+  margin: 20px auto;
+  float: left;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
