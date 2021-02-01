@@ -1,5 +1,5 @@
 .choosing-que p {
-  font-size: 18px;
+  font-size: 20px;
 }
 .our-addrs-info ul li {
   font-size: 17px;
@@ -15,4 +15,12 @@
   width: 100%;
   text-align: center;
   color: white;
+}
+
+.post-details > p {
+  font-size: 25px;
+}
+
+.spec-text > p {
+  font-size: 19px;
 }
