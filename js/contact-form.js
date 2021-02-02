@@ -29,7 +29,7 @@ $(window).on("load", function() {
             $.ajax({
                 type: "POST",
                 url: "process.php",
-                data: $("#contact_form_3").serialize(),
+                data: $("contact.html_form_3").serialize(),
                 success: function(msg)
                 {
                     if(msg === 'success')
@@ -38,7 +38,7 @@ $(window).on("load", function() {
                         document.getElementById("username").value = "";
                         document.getElementById("email").value = "";
                         document.getElementById("description").value = "";
-    //                      $("#contact_form_3").hide();
+    //                      $("contact.html_form_3").hide();
                         document.getElementById("success").style.display = "block";
                         document.getElementById("success").innerHTML = "Thank You! We'll contact you shortly.";
                     }else{
