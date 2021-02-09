@@ -24,3 +24,21 @@
 .spec-text > p {
   font-size: 19px;
 }
+
+nav > ul > li {
+  margin: auto 35px;
+}
+
+.nav-menu-contact {
+  font-size: 10px !important;
+  color: #ffa800 !important;
+}
+
+.contact-cards > div {
+  background-color: #ffa800;
+  border: #ffa800;
+}
+
+.card-text > a {
+  color: #000 !important;
+}
