@@ -42,3 +42,7 @@ nav > ul > li {
 .card-text > a {
   color: #000 !important;
 }
+
+.header-bar {
+  background-color: #03192b;
+}
